@@ -1,3 +1,10 @@
+@media (min-width: 992px) {
+  .ayam {
+    width: 300px; /* Sesuaikan lebar yang diinginkan */
+  }
+}
+
+
 body{
     justify-content: center;
     align-items: center;
@@ -13,3 +20,37 @@ body{
     color: #000; 
     text-decoration: none; 
   }
+
+  .navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Ganti dengan warna latar belakang yang diinginkan */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan jika diinginkan */
+    z-index: 999; /* Sesuaikan dengan z-index yang diinginkan */
+  }
+  
+  .navbar-brand {
+    font-size: 24px; /* Sesuaikan ukuran font yang diinginkan */
+    font-weight: bold;
+    color: #333; /* Ganti dengan warna teks yang diinginkan */
+    text-decoration: none;
+    
+    
+  }
+  
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #87CEEB; /* Warna latar belakang biru muda */
+    color: #fff; /* Warna teks */
+    padding: 20px 0; /* Jarak padding di atas dan bawah */
+  
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Bayangan bawah */
+  }
+  
+  
